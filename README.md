@@ -22,7 +22,7 @@
 </table>
 
 <h2>Задание</h2>
-<p>Задание размещено в папке <strong>task</strong> в файле <a href='https://github.com/mospol/practice-2025-1/blob/master/task/README.md'>README.md</a>.</p>
+<p>ЗДЕСЬ НАДО ПОМЕНЯТЬ НА СВОЙ README Задание размещено в папке <strong>task</strong> в файле <a href='https://github.com/mospol/practice-2025-1/blob/master/task/README.md'>README.md</a>.</p>
 
 <h2>Вариативная часть задания</h2>
 <p>СЮДА НАДО ДОПИСАТЬ (Формулировка задания вариативной части и выбранная тематика (если есть). Приведите также дополнительные ссылки на источники задания (если есть).)</p>
