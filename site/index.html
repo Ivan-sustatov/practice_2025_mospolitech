@@ -1,1 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raisin Book - интерактивное чтение литературы</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Raisin Book</h1>
+        <p>Интерактивное чтение литературы России в новом формате</p>
+    </header>
 
+    <nav>
+        <a href="#" class="nav-link active" data-page="home">Главная</a>
+        <a href="#" class="nav-link" data-page="features">Возможности</a>
+        <a href="#" class="nav-link" data-page="about">О нас</a>
+        <a href="#" class="nav-link" data-page="team">Участники</a>
+        <a href="#" class="nav-link" data-page="journal">Журнал</a>
+        <a href="#" class="nav-link" data-page="resources">Ресурсы</a>
+        <a href="#" class="nav-link" data-page="testimonials">Отзывы</a>
+    </nav>
+
+    <div class="container">
+        <!-- Главная страница -->
+        <div id="home" class="page active">
+            <div class="hero">
+                <h2>Превратите чтение в увлекательное приключение</h2>
+                <p>Raisin Book - это инновационное приложение, которое делает чтение литературы по-настоящему интерактивным и захватывающим.</p>
+            </div>
+
+            <div class="features">
+                <div class="feature-card">
+                    <i class="fas fa-book-open"></i>
+                    <h3>Сохранение культурного наследия</h3>
+                    <p>Классические произведения в современной обертке с интерактивными элементами без искажения авторского смысла.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Мобильное приложение</h3>
+                    <p>Удобная и информативная среда для чтения в нашем мобильном приложении.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Развитие новых поколений</h3>
+                    <p>Создание оригинальных сценариев для привлечения молодежи к чтению классики.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Возможности -->
+        <div id="features" class="page">
+            <h2 style="text-align: center; margin-bottom: 2rem;">Возможности Raisin Book</h2>
+            
+            <div class="features-list">
+                <ul>
+                    <li>Умный текст с интерактивными элементами</li>
+                    <li>Динамичные карточки персонажей</li>
+                    <li>Адаптивная система тестирования</li>
+                    <li>Персонализированная аналитика</li>
+                    <li>Сканирование штрих-кодов книг</li>
+                    <li>Ведение цифровой библиотеки</li>
+                    <li>Система заметок и оценок</li>
+                    <li>Отсутствие рекламы</li>
+                    <li>Минималистичный дизайн</li>
+                </ul>
+            </div>
+            
+            <div class="feature-card" style="max-width: 800px; margin: 0 auto;">
+                <h3>Как это работает?</h3>
+                <p>Raisin Book - это приложение для интерактивного чтения, где книги становятся мультимедийным опытом. Нажимайте на элементы текста, чтобы открывать дополнительные фрагменты и пояснения, изучайте персонажей через интерактивные карточки, проверяйте знания с помощью встроенных тестов и викторин, а также отслеживайте свой прогресс.</p>
+                <p>Приложение превращает классическое чтение в увлекательное погружение, помогая лучше понимать и анализировать литературные произведения.</p>
+            </div>
+        </div>
+
+        <!-- Отзывы -->
+        <div id="testimonials" class="page">
+            <h2 style="text-align: center; margin-bottom: 2rem;">Отзывы наших пользователей</h2>
+            
+            <div class="testimonials">
+                <div class="testimonial">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Отличное приложение для любителей чтения! Особенно ценно возможность сканировать штрих-коды и быстро пополнять библиотеку. Хотелось бы больше вариантов сортировки списков. В целом - полезный инструмент, но с небольшими недочетами, которые мешают поставить высшую оценку. Если их исправить, с радостью пересмотрю оценку!</p>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Raisin Book - это не просто трекер, а настоящий книжный дневник, который мотивирует меня читать больше. Обожаю систему целей и напоминаний - наконец-то смогла выработать привычку читать ежедневно! Особенно ценю возможность добавлять цитаты с пометками страниц. Единственное, чего не хватает - экспорта данных в PDF для красивого оформления заметок. Разработчику, вы молодцы!</p>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>Хорошее приложение для книголюбов, особенно ценно возможность вести свою библиотеку удобно и интуитивно. Интерфейс простой и понятный, есть возможность добавлять прочитанные книги, делать заметки и даже ставить оценки. Особенно радует отсутствие рекламы и минималистичный дизайн. Рекомендую всем книголюбам!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- О нас -->
+        <div id="about" class="page">
+            <h2 style="text-align: center; margin-bottom: 2rem;">О компании Raisin Book</h2>
+            
+            <div class="feature-card" style="max-width: 800px; margin: 0 auto 2rem;">
+                <h3>Наша миссия</h3>
+                <p>Мы создаем инновационные решения для сохранения культурного наследия России и развития новых поколений читателей через современные технологии интерактивного чтения.</p>
+            </div>
+            
+            <div class="features">
+                <div class="feature-card">
+                    <i class="fas fa-bullseye"></i>
+                    <h3>Цели</h3>
+                    <p>Сделать классическую литературу доступной и интересной для современного читателя через цифровые технологии.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Инновации</h3>
+                    <p>Используем передовые методы интерактивного представления литературных произведений.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Партнерства</h3>
+                    <p>Сотрудничаем с библиотеками и культурными учреждениями для сохранения литературного наследия.</p>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 3rem;">
+                <h3>Свяжитесь с нами</h3>
+                <p>Email: info@raisinbook.com</p>
+            </div>
+        </div>
+
+        <!-- Участники -->
+        <div id="team" class="page">
+            <h2 style="text-align: center; margin-bottom: 2rem;">Наша команда</h2>
+            
+            <div class="features" style="grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));">
+                <div class="feature-card">
+                    <img src="img/2.webp" alt="Фото участника" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin: 0 auto 1rem; display: block;">
+                    <h3>Деточка Арина Викторовна</h3>
+                    <p><strong>Группа:</strong> 241-339</p>
+                    <p><strong>Роль в проекте:</strong> UX/UI дизайнер, фронтенд-разработчик</p>
+                    <p><strong>Вклад:</strong> Разработка концепции интерфейса, создание дизайн-системы, верстка основных страниц приложения, проектирование пользовательских сценариев.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <img src="img/1.jpg" alt="Фото участника" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin: 0 auto 1rem; display: block;">
+                    <h3>Сустатов Иван Евгеньевич</h3>
+                    <p><strong>Группа:</strong> 241-339</p>
+                    <p><strong>Роль в проекте:</strong> Бэкенд-разработчик, аналитик</p>
+                    <p><strong>Вклад:</strong> Разработка серверной части приложения, проектирование базы данных, реализация API для взаимодействия с клиентской частью, анализ пользовательских данных.</p>
+                </div>
+            </div>
+            
+            <div class="feature-card" style="max-width: 800px; margin: 2rem auto 0;">
+                <h3 style="text-align: center;">О нашем сотрудничестве</h3>
+                <p>Мы работаем вместе над проектом Raisin Book с 2024 года. Наша команда сочетает в себе навыки дизайна и программирования, что позволяет создавать целостные цифровые продукты. Мы придерживаемся принципов agile-разработки и регулярно проводим совместные обсуждения для улучшения продукта.</p>
+            </div>
+        </div>
+
+        <!-- Журнал -->
+        <div id="journal" class="page">
+            <h2 style="text-align: center; margin-bottom: 2rem;">Журнал проекта</h2>
+            
+            <div class="features-list" style="max-width: 800px; margin: 0 auto;">
+                <div class="feature-card" style="margin-bottom: 2rem;">
+                    <h3>Запуск бета-тестирования</h3>
+                    <p><small>15 марта 2025</small></p>
+                    <p>Сегодня мы запустили закрытое бета-тестирование нашего приложения среди 50 пользователей. Первые отзывы обнадеживают - пользователям нравится интерактивный формат чтения, но есть замечания по удобству навигации. Начинаем работу над улучшением UX.</p>
+                </div>
+                
+                <div class="feature-card" style="margin-bottom: 2rem;">
+                    <h3>Добавление новых функций</h3>
+                    <p><small>2 апреля 2025</small></p>
+                    <p>В этом обновлении мы реализовали долгожданную функцию сканирования штрих-кодов книг. Теперь пользователи могут быстро добавлять книги в свою цифровую библиотеку. Также улучшили систему заметок - теперь можно выделять цветом важные фрагменты текста.</p>
+                </div>
+                
+                <div class="feature-card" style="margin-bottom: 2rem;">
+                    <h3>Партнерство с библиотеками</h3>
+                    <p><small>18 апреля 2025</small></p>
+                    <p>Заключено соглашение о сотрудничестве с тремя крупными городскими библиотеками. Это позволит нам получить доступ к оцифрованным версиям редких изданий и расширить каталог приложения. В планах - интеграция с библиотечными системами для удобства пользователей.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ресурсы -->
+        <div id="resources" class="page">
+            <h2 style="text-align: center; margin-bottom: 2rem;">Полезные ресурсы</h2>
+            
+            <div class="features-list">
+                <div class="feature-card">
+                    <h3>Организации-партнеры</h3>
+                    <ul style="list-style: none; padding-left: 0;">
+                        <li style="margin-bottom: 1rem;"><a href="https://www.rsl.ru/" target="_blank" style="color: var(--primary); text-decoration: none;">Российская государственная библиотека</a> - наше основное партнерство</li>
+                        <li style="margin-bottom: 1rem;"><a href="https://pushkinmuseum.art/" target="_blank" style="color: var(--primary); text-decoration: none;">Государственный музей А.С. Пушкина</a> - сотрудничество по оцифровке</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>Исследования и статьи</h3>
+                    <ul style="list-style: none; padding-left: 0;">
+                        <li style="margin-bottom: 1rem;"><a href="https://vremyarazvitiya.ru/sovremennye-tehnologii-na-urokah-literatury/" target="_blank" style="color: var(--primary); text-decoration: none;">Современные технологии в изучении литературы</a></li>
+                        <li style="margin-bottom: 1rem;"><a href="http://school9.org.ru/images/NMR/Metod_razrabotka_Vorkunova.pdf" target="_blank" style="color: var(--primary); text-decoration: none;">Интерактивные методы преподавания литературы</a></li>
+                        <li style="margin-bottom: 1rem;"><a href="https://pravdasevera.ru/2023/05/08/6454ffe38b74f5fcff512052.html" target="_blank" style="color: var(--primary); text-decoration: none;">Как технологии меняют чтение</a></li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>Технологии проекта</h3>
+                    <ul style="list-style: none; padding-left: 0;">
+                        <li style="margin-bottom: 1rem;"><a href="https://reactjs.org/" target="_blank" style="color: var(--primary); text-decoration: none;">React</a> - фронтенд-фреймворк</li>
+                        <li style="margin-bottom: 1rem;"><a href="https://nodejs.org/" target="_blank" style="color: var(--primary); text-decoration: none;">Node.js</a> - серверная платформа</li>
+                        <li style="margin-bottom: 1rem;"><a href="https://skillbox.ru/media/code/mongodb-chto-eto-za-subd-plyusy-minusy-podvodnye-kamni/" target="_blank" style="color: var(--primary); text-decoration: none;">MongoDB</a> - база данных</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-vk"></i></a>
+                <a href="#"><i class="fab fa-telegram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="footer-links">
+                <a href="#">Политика конфиденциальности</a>
+                <a href="#">Условия использования</a>
+                <a href="#">Форма обратной связи</a>
+            </div>
+            <p>&copy; 2025 Raisin Book. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Простая навигация между страницами
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                // Удаляем класс active у всех ссылок и страниц
+                document.querySelectorAll('.nav-link').forEach(el => el.classList.remove('active'));
+                document.querySelectorAll('.page').forEach(el => el.classList.remove('active'));
+                
+                // Добавляем класс active к выбранной ссылке и соответствующей странице
+                this.classList.add('active');
+                const pageId = this.getAttribute('data-page');
+                document.getElementById(pageId).classList.add('active');
+                
+                // Прокрутка к верху страницы
+                window.scrollTo(0, 0);
+            });
+        });
+    </script>
+</body>
+</html>
